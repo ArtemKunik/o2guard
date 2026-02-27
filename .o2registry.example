@@ -1,0 +1,19 @@
+# .o2registry — list of allowed environment variable names
+#
+# Format:
+#   VARIABLE_NAME
+#   VARIABLE_NAME=optional description
+#
+# Lines starting with # are ignored.
+# Combine with .env files and docker-compose.yml — all sources are merged.
+
+# Example entries (delete and replace with your own):
+DATABASE_URL=PostgreSQL / MySQL connection string
+REDIS_URL=Redis connection string
+
+API_KEY=External API key
+OPENAI_API_KEY
+STRIPE_SECRET_KEY
+
+BACKEND_URL=Internal backend service base URL
+FRONTEND_URL=Public frontend URL

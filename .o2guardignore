@@ -1,0 +1,9 @@
+# .o2guardignore — paths excluded from o2guard validation
+# Syntax is the same as .gitignore (prefix match or glob)
+
+# Test fixtures often use fake variable names — exclude them
+tests/
+
+# Generated or vendored code
+vendor/
+src/generated/
